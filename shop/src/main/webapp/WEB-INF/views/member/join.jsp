@@ -2,14 +2,12 @@
     pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html>
-
 <head>
 <%@ include file="../include/shop_header.jsp" %>
+<link rel="stylesheet" href="../resources/css/member/join.css">
 </head>
-
 <body>
 <%@ include file="../include/shop_menu.jsp" %>
-
 <div class="wrapper">
 	<form action="">
 	<div class="wrap">

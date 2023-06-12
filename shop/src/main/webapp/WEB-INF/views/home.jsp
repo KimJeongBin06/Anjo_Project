@@ -1,10 +1,11 @@
 <%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c" %>
 <%@ page session="false" %>
 <%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8" %>
+<html>
+<head>
 <!DOCTYPE html>
-
-
 <html lang="zxx">
+
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset-UTF-8">
     <meta name="description" content="Male_Fashion Template">
@@ -98,15 +99,15 @@
             <div class="row">
                 <div class="col-lg-3 col-md-3">
                     <div class="header__logo">
-                        <a href="./index.html"><img src="resources/img/llogo.jpg" alt=""></a>
+                        <a href="#"><img src="resources/img/llogo.jpg" alt=""></a>
                     </div>
                 </div>
                 <div class="col-lg-6 col-md-6">
                     <nav class="header__menu mobile-menu">
                         <ul>
-                            <li class="active"><a href="./index.html">New</a></li>
-                            <li><a href="./shop.html">Best</a></li>
-                            <li><a href="#">안경테</a>
+                            <li class="active"><a href="${path}/product/new">New</a></li>
+                            <li><a href="${path}/product/best">Best</a></li>
+                            <li><a href="${path}/product/list?catecode=1">안경테</a>
                                 <ul class="dropdown">
                                     <li><a href="./about.html"></a>원형</li>
                                     <li><a href="./shop-details.html">원형</a></li>
@@ -118,19 +119,19 @@
                             </li>
                             <li><a href="#">선글라스</a>
                                 <ul class="dropdown">
-                                    <li><a href="./about.html"></a>선글라스</li>
+                                    <li><a href="${path}/product/list?catecode=2"></a>선글라스</li>
                                     <li><a href="./shop-details.html">원형</a></li>
                                     <li><a href="./shop-details.html">사각형</a></li>
                                     <li><a href="./shopping-cart.html">캣츠형</a></li>
                                     <li><a href="./checkout.html">스포츠형</a></li>
                                 </ul>
                             </li>
-                            <li><a href="#">커뮤니티</a>
+                            <li><a href="${path}/Community/noticeList">커뮤니티</a>
                                 <ul class="dropdown">
-                                    <li><a href="./about.html"></a>커뮤니티</li>
-                                    <li><a href="./shop-details.html">고객센터</a></li>
-                                    <li><a href="./shopping-cart.html">Q&A</a></li>
-                                     <li><a href="./shopping-cart.html">리뷰</a></li>
+                                    <li><a href="#"></a>커뮤니티</li>
+                                    <li><a href="${path}/Community/noticeList">고객센터</a></li>
+                                    <li><a href="${path}/Community/questionList">Q&A</a></li>
+                                     <li><a href="${path}/Community/reviewList">리뷰</a></li>
                                  </ul>
                             </li>
                         </ul>

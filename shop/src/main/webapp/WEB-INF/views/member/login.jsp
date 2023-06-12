@@ -2,11 +2,10 @@
     pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html>
-
 <head>
+<link rel="stylesheet" href="../resources/css/member/login.css">
 <%@ include file="../include/shop_header.jsp" %>
 </head>
-
 <body>
 <%@ include file="../include/shop_menu.jsp" %>
 <div class="wrapper">

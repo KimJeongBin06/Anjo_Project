@@ -25,7 +25,6 @@
     <link rel="stylesheet" href="../resources/css/owl.carousel.min.css" type="text/css">
     <link rel="stylesheet" href="../resources/css/slicknav.min.css" type="text/css">
     <link rel="stylesheet" href="../resources/css/style.css" type="text/css">
-    <link rel="stylesheet" href="../resources/css/member/login.css">
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script> 
 </head>
 

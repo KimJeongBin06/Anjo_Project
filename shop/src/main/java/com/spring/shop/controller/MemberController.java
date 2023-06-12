@@ -17,7 +17,7 @@ public class MemberController {
 	public String joinGET() {
 		
 		logger.info("회원가입 페이지 진입");
-		return "member/join";
+		return "member/join";	
 	}
 	
 	//로그인 페이지 이동

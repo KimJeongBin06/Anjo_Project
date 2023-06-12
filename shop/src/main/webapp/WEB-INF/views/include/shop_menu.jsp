@@ -4,7 +4,6 @@
 <c:set var="path" value="${pageContext.request.contextPath }" />
 <!-- Page Preloder -->
 
-
     <!-- Offcanvas Menu Begin -->
     <div class="offcanvas-menu-overlay"></div>
     <div class="offcanvas-menu-wrapper">
@@ -49,7 +48,7 @@
                         <div class="header__top__right">
                             <div class="header__top__links">
                                 <a href="${path }/member/login">로그인</a>
-                                <a href="#">회원가입</a>
+                                <a href="${path }/member/join">회원가입</a>
                             </div>
                             <div class="header__top__hover">
                                 <span>마이페이지 <i class="arrow_carrot-down"></i></span>
@@ -68,15 +67,15 @@
             <div class="row">
                 <div class="col-lg-3 col-md-3">
                     <div class="header__logo">
-                        <a href="./index.html"><img src="../resources/img/llogo.jpg" alt=""></a>
+                        <a href="${path }/"><img src="../resources/img/llogo.jpg" alt=""></a>
                     </div>
                 </div>
                 <div class="col-lg-6 col-md-6">
                     <nav class="header__menu mobile-menu">
                         <ul>
-                            <li class="active"><a href="./index.html">New</a></li>
-                            <li><a href="./shop.html">Best</a></li>
-                            <li><a href="#">안경테</a>
+                            <li class="active"><a href="${path}/product/new">New</a></li>
+                            <li><a href="${path}/product/best">Best</a></li>
+                            <li><a href="${path}/product/list?catecode=1">안경테</a>
                                 <ul class="dropdown">
                                     <li><a href="./about.html"></a>원형</li>
                                     <li><a href="./shop-details.html">원형</a></li>
@@ -86,7 +85,7 @@
                                     <li><a href="./blog-details.html">사각라운드</a></li>
                                 </ul>
                             </li>
-                            <li><a href="#">선글라스</a>
+                            <li><a href="${path}/product/list?catecode=2">선글라스</a>
                                 <ul class="dropdown">
                                     <li><a href="./about.html"></a>선글라스</li>
                                     <li><a href="./shop-details.html">원형</a></li>
@@ -95,12 +94,12 @@
                                     <li><a href="./checkout.html">스포츠형</a></li>
                                 </ul>
                             </li>
-                            <li><a href="#">커뮤니티</a>
+                            <li><a href="${path}/Community/noticeList">커뮤니티</a>
                                 <ul class="dropdown">
                                     <li><a href="./about.html"></a>커뮤니티</li>
-                                    <li><a href="./shop-details.html">고객센터</a></li>
-                                    <li><a href="./shopping-cart.html">Q&A</a></li>
-                                     <li><a href="./shopping-cart.html">리뷰</a></li>
+                                    <li><a href="${path}/Community/noticeList">고객센터</a></li>
+                                    <li><a href="${path}/Community/questionList">Q&A</a></li>
+                                     <li><a href="${path}/Community/reviewList">리뷰</a></li>
                                  </ul>
                             </li>
                         </ul>
